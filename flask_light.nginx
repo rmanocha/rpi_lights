@@ -3,6 +3,6 @@ server {
 
     location / {
         include uwsgi_params;
-        uwsgi_pass unix:/opt/flask_light/flask_light.sock;
+        uwsgi_pass unix:/opt/rpi_lights/flask_light.sock;
     }
 }
